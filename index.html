@@ -61,14 +61,17 @@
         }
         
             .content-1 {
-                max-width: 600px;
-                padding: 2rem;
+                max-width: 700px;
+                padding: 3rem;
                 z-index: 2;
                 position: relative;
-                background: rgba(0, 0, 0, 0.6); /* fundo escuro translúcido */
+                background: rgba(0, 0, 0, 0.65);
                 border-radius: 16px;
-                backdrop-filter: blur(8px); /* efeito de vidro fosco */
+                backdrop-filter: blur(8px);
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+                display: flex;
+                flex-direction: column;
+                gap: 2rem;
         }
         
         .main-title, .subtitle, .company-name, .company-subtitle, .contact-info p {
@@ -76,26 +79,26 @@
             text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* contraste ainda melhor */
         }
         
-        .main-title {
-            font-size: 3.5rem;
+       .main-title {
+            font-size: 4rem;
             font-weight: bold;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
             line-height: 1.1;
+            text-align: center;
         }
 
         .subtitle {
-            font-size: 1.5rem;
-            margin-bottom: 2rem;
-            opacity: 0.9;
+            font-size: 1.7rem;
+            text-align: center;
         }
 
         .description-box {
-            background: rgba(30, 58, 138, 0.8);
-            padding: 2rem;
-            border-radius: 10px;
-            margin-bottom: 3rem;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.1);
+            background: rgba(30, 58, 138, 0.9);
+            padding: 1.5rem 2rem;
+            border-radius: 12px;
+            backdrop-filter: blur(8px);
+            border: none;
+            text-align: center;
         }
 
         .description-box p {
@@ -454,19 +457,6 @@
             <div class="description-box">
                 <p>Assessoria jurídica personalizada para proteger seus direitos e interesses.</p>
             </div>
-            
-            <div class="logo-section">
-                <div class="logo">F</div>
-                <div>
-                    <div class="company-name">FALEIRO</div>
-                    <div class="company-subtitle">Advocacia e Consultoria</div>
-                </div>
-            </div>
-            
-            <div class="contact-info">
-                <p>(62) 98131-0280</p>
-                <p>contato@faleiroassociadosadvogado.com.br</p>
-            </div>
         </div>
     </section>
 
@@ -560,10 +550,10 @@
                 </div>
             </div>
         </div>
-
         <div class="footer-bottom">
             <p>&copy; 2025 Faleiro Advocacia e Consultoria. Todos os direitos reservados.</p>
             <p>Desenvolvido com excelência para proteger seus direitos e interesses.</p>
+            <p>📧 contato@faleiroassociadosadvogado.com.br</p>
         </div>
     </footer>
 
