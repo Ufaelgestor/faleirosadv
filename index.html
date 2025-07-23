@@ -368,15 +368,17 @@
         .social-link {
             display: inline-flex;
             align-items: center;
-            background: linear-gradient(45deg, #ffd700, #ffed4e);
-            color: #1e3a8a;
-            padding: 0.5rem 1rem;
+            background: linear-gradient(45deg, #ffeb3b, #fff176); /* tom mais claro */
+            color: #000; /* texto preto */
+            padding: 0.6rem 1.2rem;
             border-radius: 25px;
             text-decoration: none;
             font-weight: bold;
-            font-size: 0.9rem;
+            font-size: 0.95rem;
             transition: all 0.3s ease;
-            border: 2px solid #ffd700;
+            border: 2px solid #fdd835;
+            text-align: center;
+            justify-content: center;
         }
 
         .social-link:hover {
@@ -431,9 +433,12 @@
             .footer-content {
                 grid-template-columns: 1fr;
             }
-            
+            .footer-section {
+                text-align: center;
+            }
             .social-links {
                 justify-content: center;
+                flex-wrap: wrap;
             }
         }
     </style>
@@ -441,7 +446,7 @@
 <body>
     <!-- Seção 1 - Principal -->
     <section class="section section-1">
-        <div class="diagonal-lines"></div
+        <div class="diagonal-lines"></div>
         <div class="content-1">
             <h1 class="main-title">PRECISA DE<br>ORIENTAÇÃO LEGAL?</h1>
             <p class="subtitle">Estamos aqui para te ajudar.</p>
