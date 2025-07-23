@@ -59,14 +59,23 @@
             font-size: 1.1rem;
             opacity: 0.8;
         }
-
-        .content-1 {
-            max-width: 600px;
-            padding: 2rem;
-            z-index: 2;
-            position: relative;
+        
+            .content-1 {
+                max-width: 600px;
+                padding: 2rem;
+                z-index: 2;
+                position: relative;
+                background: rgba(0, 0, 0, 0.6); /* fundo escuro translúcido */
+                border-radius: 16px;
+                backdrop-filter: blur(8px); /* efeito de vidro fosco */
+                box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
         }
-
+        
+        .main-title, .subtitle, .company-name, .company-subtitle, .contact-info p {
+            color: #fff;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7); /* contraste ainda melhor */
+        }
+        
         .main-title {
             font-size: 3.5rem;
             font-weight: bold;
@@ -284,13 +293,10 @@
             .lawyer-title {
                 font-size: 2rem;
             }
-            
+
+    
             .content-1 {
                 text-align: center;
-            }
-            
-            .justice-statue {
-                display: none;
             }
         }
 
@@ -510,7 +516,7 @@
                 <p>Goiânia - GO, 74115-060</p>
                 <div class="social-links">
                     <a href="https://api.whatsapp.com/send?phone=5562981310280&text=Boa%20tarde%2C%20preciso%20dos%20servi%C3%A7os%20do%20escrit%C3%B3rio%20Faleiro%20Associados." target="_blank" class="social-link whatsapp-button">📱 WhatsApp Escritório</a>
-                    <a href="https://maps.app.goo.gl/CjvQLQVLsnR5mcpG6" target="_blank" class="social-link map-link">📍 Ver no Mapa</a>
+                    <a href="https://maps.app.goo.gl/CjvQLQVLsnR5mcpG6" target="_blank" class="social-link map-link">📍 Localização do Escritório</a>
                 </div>
             </div>
 
